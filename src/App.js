@@ -1,9 +1,9 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './components/views/Home';
-import AdminProductos from './components/views/AdminProductos';
-import CrearProducto from './components/views/CrearProducto';
-import EditarProducto from './components/views/EditarProducto';
+import AdminProductos from './components/views/producto/AdminProductos';
+import CrearProducto from './components/views/producto/CrearProducto';
+import EditarProducto from './components/views/producto/EditarProducto';
 import Error404 from './components/views/Error404';
 import Menu from './components/common/Menu';
 import Footer from './components/common/Footer';
