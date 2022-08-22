@@ -9,14 +9,14 @@
         },
         {
             "nombreProducto": "licuado",
-            "precio": "350",
+            "precio": "200",
             "imagen": "https://...",
             "categoria": "bebida-caliente",
             "id": 2
         },
         {
             "nombreProducto": "medialuna",
-            "precio": "350",
+            "precio": "100",
             "imagen": "https://...",
             "categoria": "panaderia-dulce",
             "id": 3
