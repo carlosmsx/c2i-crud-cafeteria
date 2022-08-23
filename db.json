@@ -1,25 +1,32 @@
 {
-    "productos": [
-        {
-            "nombreProducto": "café",
-            "precio": "350",
-            "imagen": "https://...",
-            "categoria": "bebida-caliente",
-            "id": 1
-        },
-        {
-            "nombreProducto": "licuado",
-            "precio": "200",
-            "imagen": "https://...",
-            "categoria": "bebida-caliente",
-            "id": 2
-        },
-        {
-            "nombreProducto": "medialuna",
-            "precio": "100",
-            "imagen": "https://...",
-            "categoria": "panaderia-dulce",
-            "id": 3
-        }
-    ]
+  "productos": [
+    {
+      "nombreProducto": "café",
+      "precio": "350",
+      "imagen": "https://...",
+      "categoria": "bebida-caliente",
+      "id": 1
+    },
+    {
+      "nombreProducto": "licuado",
+      "precio": "200",
+      "imagen": "https://...",
+      "categoria": "bebida-caliente",
+      "id": 2
+    },
+    {
+      "nombreProducto": "medialuna",
+      "precio": "100",
+      "imagen": "https://...",
+      "categoria": "panaderia-dulce",
+      "id": 3
+    },
+    {
+      "nombreProducto": "lemon pie@",
+      "precio": "500",
+      "imagen": "https://...",
+      "categoria": "panaderia-dulce",
+      "id": 4
+    }
+  ]
 }
