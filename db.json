@@ -15,13 +15,6 @@
       "id": 3
     },
     {
-      "nombreProducto": "lemon pie@",
-      "precio": "500",
-      "imagen": "https://...",
-      "categoria": "panaderia-dulce",
-      "id": 4
-    },
-    {
       "nombreProducto": "pan",
       "precio": "100",
       "imagen": "https://images.pexels.com/photos/209206/pexels-photo-209206.jpeg?auto=compress&cs=tinysrgb&w=1600",
