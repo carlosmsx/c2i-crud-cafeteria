@@ -27,14 +27,14 @@ const CrearProducto = () => {
             setMensajeError(true);
             return;
         }
-        //crear objeto
+        //crear objeto: notese que el objeto se crea con nombres de propiedades igual a las variables de donde se toman los datos
         const nuevoProducto = {
             nombreProducto,
             precio,
             imagen,
             categoria
         }
-        //enviar peticion a la API (creat)
+        //enviar peticion a la API (create)
         try {
             const respuesta = await fetch(URL_API, {
                 "method": "POST",
