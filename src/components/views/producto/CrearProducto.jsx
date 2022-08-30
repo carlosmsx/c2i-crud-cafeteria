@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {Form,Button,Alert} from 'react-bootstrap';
 import { cantidadCaracteres, validarCategoria, validarPrecio, validarUrl } from "./helpers";
 import Swal from "sweetalert2";
-import {useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom';
 
 const CrearProducto = () => {
 
@@ -92,7 +92,7 @@ const CrearProducto = () => {
                 </Button>
             </Form>
             {
-                (mensajeError==true)?<Alert variant='danger'>Debe corregir los datos</Alert>:null
+                (mensajeError===true)?<Alert variant='danger'>Debe corregir los datos</Alert>:null
             }
         </section>
     );
