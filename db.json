@@ -8,21 +8,21 @@
       "id": 1
     },
     {
-      "nombreProducto": "medialuna",
-      "precio": "100",
-      "imagen": "https://...",
-      "categoria": "panaderia-dulce",
+      "nombreProducto": "medialuna entera",
+      "precio": "5050",
+      "imagen": "https://...111",
+      "categoria": "dulce",
       "id": 3
     },
     {
       "nombreProducto": "lemon pie@",
-      "precio": "500",
+      "precio": "750",
       "imagen": "https://...",
       "categoria": "panaderia-dulce",
       "id": 4
     },
     {
-      "nombreProducto": "sdf",
+      "nombreProducto": "sdf1",
       "precio": "123",
       "imagen": "https://",
       "categoria": "bebida-fria",
