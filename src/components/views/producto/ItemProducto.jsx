@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 import {Link} from 'react-router-dom';
 
 const ItemProducto = ({ producto, consultarAPI }) => {
-    const { nombreProducto, id, precio, imagen, categoria } = { ...producto };
+    const { nombreProducto, _id, precio, imagen, categoria } = { ...producto };
     const URL_API = process.env.REACT_APP_API_CAFETERIA;
 
     const handleDelete = () => {
@@ -21,7 +21,7 @@ const ItemProducto = ({ producto, consultarAPI }) => {
             if (result.isConfirmed) {
                 try {
                     //realizar peticion DELETE
-                    const respuesta = await fetch(URL_API+'/'+id,{
+                    const respuesta = await fetch(URL_API+'/'+_id,{
                         method: "DELETE"
                     });
 
@@ -41,13 +41,13 @@ const ItemProducto = ({ producto, consultarAPI }) => {
     };
     return (
         <tr>
-            <td>{id}</td>
+            <td>{_id}</td>
             <td>{nombreProducto}</td>
             <td>{precio}</td>
             <td>{imagen}</td>
             <td>{categoria}</td>
             <td>
-                <Link className="btn btn-warning" to={`/administrar/editar/${id}`}>Editar</Link>
+                <Link className="btn btn-warning" to={`/administrar/editar/${_id}`}>Editar</Link>
                 <Button variant="danger" onClick={handleDelete}>
                     Borrar
                 </Button>

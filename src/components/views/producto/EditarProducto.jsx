@@ -40,13 +40,15 @@ const EditarProducto = () => {
         e.preventDefault();
         //aplicar las validaciones aquí
         if (cantidadCaracteres(nombreRef.current.value, 2, 50) && validarPrecio(precioRef.current.value) && validarUrl(imagenRef.current.value) /*categoria */) {
+            console.log("validacion ok");
         }
         else
         {
-            //mostrar mensaje de error
+            console.log("error validacion");
         }
         //creo el objeto
         const productoEditar = {
+            _id: id,
             nombreProducto: nombreRef.current.value,
             precio: precioRef.current.value,
             imagen: imagenRef.current.value,
